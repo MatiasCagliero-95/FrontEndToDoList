@@ -1,0 +1,33 @@
+.note-list {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .note-item {
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .note-item.completed {
+    background-color: #e0ffe0;
+    text-decoration: line-through;
+  }
+  
+  .note-actions button {
+    margin-left: 5px;
+  }
+  
